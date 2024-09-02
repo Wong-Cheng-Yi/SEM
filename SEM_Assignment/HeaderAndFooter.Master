@@ -64,6 +64,7 @@
                                 <li><a href="#top" class="active">Home</a></li>
                                 <li><a href="event.aspx">Event</a></li>
                                 <li><a href="#top">Help</a></li>
+                                <li><a href="#top">Login</a></li> <!-- just for testing the first push to git (XinYi) -->
                                 <%--<li class="has-sub">
                                     <a href="javascript:void(0)">Pages</a>
                                     <ul class="sub-menu">
