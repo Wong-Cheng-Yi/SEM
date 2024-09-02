@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\SEM.mdf" />
+    <Content Include="App_Data\SEM_log.ldf">
+      <DependentUpon>SEM.mdf</DependentUpon>
+    </Content>
     <Content Include="assets\css\flex-slider.css" />
     <Content Include="assets\css\fontawesome.css" />
     <Content Include="assets\css\lightbox.css" />
