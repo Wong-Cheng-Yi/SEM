@@ -1,203 +1,99 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderAndFooter.Master" AutoEventWireup="true" CodeBehind="event.aspx.cs" Inherits="SEM_Assignment._event" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
 
-    <section class="heading-page header-text" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h6>Here are our upcoming events</h6>
-          <h2>Upcoming Events</h2>
-        </div>
-      </div>
-    </div>
-  </section>
+    <style>
+        .pagination ul li {
+            margin: 0 2px; /* Adjust margin between page numbers */
+        }
+    </style>
 
-  <section class="meetings-page" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="filters">
-                <ul>
-                  <li data-filter="*"  class="active">All Events</li>
-                  <li data-filter=".soon">Soon</li>
-                  <li data-filter=".imp">Important</li>
-                  <li data-filter=".att">Attractive</li>
-                </ul>
-              </div>
+    <script type="text/javascript">
+        let currentPage = 1;
+        const eventsPerPage = 3; // Set the number of events per page
+        let totalPages = Math.ceil(totalEvents / eventsPerPage); // Calculate the total number of pages
+
+        function displayPagination() {
+            let paginationHTML = '';
+
+            // Generate page numbers dynamically based on the totalPages
+            for (let i = 1; i <= totalPages; i++) {
+                paginationHTML += `<li class="${i === currentPage ? 'active' : ''}"><a href="#" onclick="changePage(${i})">${i}</a></li>`;
+            }
+
+            document.querySelector('#pagination').innerHTML = paginationHTML;
+        }
+
+        function changePage(page) {
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+
+            // Handle disabling of 'prev' and 'next' buttons
+            document.querySelector('#prevPage').style.visibility = currentPage === 1 ? 'hidden' : 'visible';
+            document.querySelector('#nextPage').style.visibility = currentPage === totalPages ? 'hidden' : 'visible';
+
+            // Load the appropriate events for the current page
+            loadEventsForPage(currentPage);
+            displayPagination();
+        }
+
+        // Handling 'prev' and 'next' buttons
+        document.querySelector('#prevPage').addEventListener('click', () => {
+            changePage(currentPage - 1);
+        });
+
+        document.querySelector('#nextPage').addEventListener('click', () => {
+            changePage(currentPage + 1);
+        });
+
+        // Initial setup
+        changePage(1);
+
+    </script>
+
+    <section class="heading-page header-text" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>FOCS</h6>
+                    <h2>Upcoming Events</h2>
+                </div>
             </div>
-            <div class="col-lg-12">
-              <div class="row grid">
-                <div class="col-lg-4 templatemo-item-col all soon">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$14.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-01.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>12</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>New Lecturers Meeting</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all imp">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$22.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-02.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>14</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Online Teaching Techniques</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all soon">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$24.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-03.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>16</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Network Teaching Concept</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all att">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$32.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-04.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>18</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Online Teaching Tools</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all att">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$34.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-02.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>22</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>New Teaching Techniques</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all imp">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$45.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-03.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>24</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Technology Conference</h4></a>
-                      <p>TemplateMo is the best website<br>when it comes to Free CSS.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all imp att">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$52.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-01.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>27</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Online Teaching Techniques</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all soon imp">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$64.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-02.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>28</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Instant Lecture Design</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 templatemo-item-col all att soon">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        <span>$74.00</span>
-                      </div>
-                      <a href="event-details.aspx"><img src="assets/images/meeting-03.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        <h6>Nov <span>30</span></h6>
-                      </div>
-                      <a href="event-details.aspx"><h4>Online Social Networking</h4></a>
-                      <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="pagination">
-                <ul>
-                  <li><a href="#">1</a></li>
-                  <li class="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="events" class="meetings-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="filters">
+                                <ul>
+                                    <li class='<%= Request.QueryString["filter"] == null || Request.QueryString["filter"] == "all" ? "active" : "" %>'>
+                                        <a href="event.aspx?filter=all">All Events</a>
+                                    </li>
+                                    <li class='<%= Request.QueryString["filter"] == "soon" ? "active" : "" %>'>
+                                        <a href="event.aspx?filter=soon">Soon</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row grid">
+                                <asp:PlaceHolder ID="eventsPlaceholder" runat="server"></asp:PlaceHolder>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="pagination">
+                                <!-- Dynamic page numbers will be injected here -->
+                                <asp:PlaceHolder ID="paginationPlaceholder" runat="server"></asp:PlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </asp:Content>

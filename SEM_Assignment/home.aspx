@@ -99,105 +99,27 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="categories">
-                        <h4>Event Catgories</h4>
+                        <h4>Event Categories</h4>
                         <ul>
-                            <li><a href="#">Sed tempus enim leo</a></li>
-                            <li><a href="#">Aenean molestie quis</a></li>
-                            <li><a href="#">Cras et metus vestibulum</a></li>
-                            <li><a href="#">Nam et condimentum</a></li>
-                            <li><a href="#">Phasellus nec sapien</a></li>
+                            <li><a href="event.aspx">Technology & Innovation</a></li>
+                            <li><a href="event.aspx">Leadership & Management</a></li>
+                            <li><a href="event.aspx">Education & Training</a></li>
+                            <li><a href="event.aspx">Health & Wellness</a></li>
+                            <li><a href="event.aspx">Entrepreneurship & Business</a></li>
+                            <li><a href="event.aspx">Sustainability & Environment</a></li>
+                            <li><a href="event.aspx">Community & Networking</a></li>
+                            <li><a href="event.aspx">Arts & Culture</a></li>
                         </ul>
                         <div class="main-button-red">
-                            <a href="meetings.aspx">All Upcoming Events</a>
+                            <a href="event.aspx">All Upcoming Events</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$22.00</span>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>10</span></h6>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <h4>New Lecturers Meeting</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>
-                                        cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$36.00</span>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>24</span></h6>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <h4>Online Teaching Techniques</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>
-                                        cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$14.00</span>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>26</span></h6>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <h4>Higher Education Conference</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>
-                                        cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$48.00</span>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>30</span></h6>
-                                    </div>
-                                    <a href="event-details.aspx">
-                                        <h4>Student Training Meetup</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>
-                                        cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- PlaceHolder for upcoming events -->
+                        <asp:PlaceHolder ID="eventsPlaceholder" runat="server"></asp:PlaceHolder>
+                        <!-- The dynamically loaded events will be rendered here -->
                     </div>
                 </div>
             </div>
@@ -257,6 +179,7 @@
                                         Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a elit massa.<br>
                                         <br>
                                         Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin tincidunt.
+                                   
                                     </p>
                                 </div>
                             </div>
@@ -274,6 +197,7 @@
                                         Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit, at ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur velit.<br>
                                         <br>
                                         Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor sapien et quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.
+                                   
                                     </p>
                                 </div>
                             </div>
@@ -291,6 +215,7 @@
                                         Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br>
                                         <br>
                                         Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi quis, convallis nisi.
+                                   
                                     </p>
                                 </div>
                             </div>
