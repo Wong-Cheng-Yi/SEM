@@ -109,7 +109,7 @@
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
-                                <li><a href="">Create User</a></li>
+                                <li><a href="CreateUser.aspx">Create User</a></li>
                                 <li><a href="event-management.aspx">Event Management</a></li>
                                 <li><a href="home.aspx" class="active">Home</a></li>
                                 <li><a href="event.aspx">Event</a></li>
