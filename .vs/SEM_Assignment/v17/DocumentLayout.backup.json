@@ -3,8 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\wongc\\source\\repos\\SEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|c:\\users\\wongc\\source\\repos\\sem\\sem_assignment\\headerandfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\createuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\createuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|c:\\users\\wongc\\source\\repos\\sem\\sem_assignment\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\event-management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\event-management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\event-details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\event-details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\headerandfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\headerandfooter.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\createuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\createuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\headerandfooter.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\headerandfooter.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.aspnet_Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\event.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\event.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\event.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\event.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|C:\\Users\\wongc\\source\\repos\\SEM\\sem_assignment\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B03F755-E696-42E3-B50A-B69B4AF103DF}|SEM_Assignment\\SEM_Assignment.csproj|solutionrelative:sem_assignment\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.Event.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +72,36 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "event-details.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event-details.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\event-details.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event-details.aspx",
+              "RelativeToolTip": "SEM_Assignment\\event-details.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-20T05:44:28.988Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateUser.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\CreateUser.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\CreateUser.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\CreateUser.aspx",
+              "RelativeToolTip": "SEM_Assignment\\CreateUser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-19T10:25:08.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HeaderAndFooter.Master",
               "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\HeaderAndFooter.Master",
               "RelativeDocumentMoniker": "SEM_Assignment\\HeaderAndFooter.Master",
@@ -48,6 +111,109 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-16T02:38:29.927Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "event-management.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event-management.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\event-management.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event-management.aspx",
+              "RelativeToolTip": "SEM_Assignment\\event-management.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-19T10:14:43.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\Login.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\Login.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\Login.aspx",
+              "RelativeToolTip": "SEM_Assignment\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-19T10:13:03.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUser.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\CreateUser.aspx.cs",
+              "RelativeDocumentMoniker": "SEM_Assignment\\CreateUser.aspx.cs",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\CreateUser.aspx.cs",
+              "RelativeToolTip": "SEM_Assignment\\CreateUser.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:27:03.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HeaderAndFooter.Master.cs",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\HeaderAndFooter.Master.cs",
+              "RelativeDocumentMoniker": "SEM_Assignment\\HeaderAndFooter.Master.cs",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\HeaderAndFooter.Master.cs",
+              "RelativeToolTip": "SEM_Assignment\\HeaderAndFooter.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:29:06.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.aspnet_Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.aspnet_Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.aspnet_Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-20T05:24:03.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "event.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event.aspx.cs",
+              "RelativeDocumentMoniker": "SEM_Assignment\\event.aspx.cs",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event.aspx.cs",
+              "RelativeToolTip": "SEM_Assignment\\event.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:25:08.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "home.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\home.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\home.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\home.aspx",
+              "RelativeToolTip": "SEM_Assignment\\home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-18T10:58:40.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "event.aspx",
+              "DocumentMoniker": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event.aspx",
+              "RelativeDocumentMoniker": "SEM_Assignment\\event.aspx",
+              "ToolTip": "C:\\Users\\wongc\\source\\repos\\SEM\\SEM_Assignment\\event.aspx",
+              "RelativeToolTip": "SEM_Assignment\\event.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-18T08:25:03.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.Event.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.Event.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_WONGC_SOURCE_REPOS_SEM_SEM_ASSIGNMENT_APP_DATA_SEM.MDF/True/SqlTable/dbo.Event.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-19T10:08:03.363Z"
             }
           ]
         }
