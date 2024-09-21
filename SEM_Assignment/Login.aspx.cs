@@ -14,6 +14,19 @@ namespace SEM_Assignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Session["UserPassword"] = null;
+        }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+            if (Membership.ValidateUser(Login1.UserName, Login1.Password))
+            {
+                // Store the password in session (ensure this is secure)
+                Session["UserPassword"] = Login1.Password;
+
+                //// Redirect to the Change Security Question page
+                //Response.Redirect("ChangePassword.aspx");
+            }
         }
     }
 }

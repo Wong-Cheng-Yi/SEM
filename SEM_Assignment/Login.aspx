@@ -32,14 +32,18 @@
                                     <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="Login1" CssClass="text-danger"></asp:RequiredFieldValidator>
                                 </div>
 
-                                <!-- Error Message -->
+                               
                                 <div class="form-group text-center text-danger">
                                     <asp:Literal ID="FailureText" runat="server" EnableViewState="False"></asp:Literal>
                                 </div>
 
-                                <!-- Login Button -->
+                   
                                 <div class="d-grid gap-2">
-                                    <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" CssClass="btn btn-primary btn-block" ValidationGroup="Login1" />
+                                    <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" CssClass="btn btn-primary btn-block" ValidationGroup="Login1" OnClick="LoginButton_Click" />
+                                </div>
+
+                                <div class="d-grid gap-2">
+                                    <asp:HyperLink ID="HyperLink1" runat="server" Text="Forget Password?" NavigateUrl="~/PasswordRecovery.aspx"></asp:HyperLink>
                                 </div>
                             </div>
                         </div>

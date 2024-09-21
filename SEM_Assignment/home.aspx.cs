@@ -7,6 +7,8 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Web.Security;
 
 namespace SEM_Assignment
 {
@@ -18,6 +20,41 @@ namespace SEM_Assignment
             {
                 LoadUpcomingEvents(); // Load upcoming events
             }
+
+
+            if (!IsPostBack)
+            {
+                string userId = "";
+                if (User.Identity.IsAuthenticated)
+                {
+                    string username = User.Identity.Name;
+                    MembershipUser user = Membership.GetUser(username);
+                    if (user != null)
+                    {
+                        userId = user.ProviderUserKey.ToString();
+                        string connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+                        using (SqlConnection conn = new SqlConnection(connectionString))
+                        {
+                            conn.Open();
+
+
+                            string query = "SELECT [IsFirst] FROM dbo.aspnet_Users WHERE [UserId] = @UserID";
+                            SqlCommand cmd = new SqlCommand(query, conn);
+                            cmd.Parameters.AddWithValue("@UserID", userId);
+
+
+                            bool isFirstLogin = (bool)cmd.ExecuteScalar();
+
+                            if (isFirstLogin)
+                            {
+                                Response.Redirect("SecurityQuestion.aspx");
+                            }
+                        }
+                    }
+                }
+
+            }
+
         }
 
         protected void LoadUpcomingEvents()

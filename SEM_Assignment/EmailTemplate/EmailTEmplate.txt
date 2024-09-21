@@ -1,0 +1,10 @@
+﻿Hello,
+
+Your  login details is as follow:
+
+User Name: <%UserName%>
+Password: <%Password%>
+
+Regards,
+
+TARUMT
