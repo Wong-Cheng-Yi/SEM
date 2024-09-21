@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderAndFooter.Master" AutoEventWireup="true" CodeBehind="CreateUser.aspx.cs" Inherits="SEM_Assignment.CreateUser" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+<<<<<<< HEAD
     <section class="heading-page header-text" id="top">
         <div class="container">
             <div class="row">
@@ -10,6 +11,20 @@
             </div>
         </div>
     </section>
+=======
+
+    <section class="heading-page header-text" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h6>Welcome!</h6>
+                <h2>Please Create Your Account</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+>>>>>>> d17225f2d472f1444575f5fa1522a373f5bef43e
     <div class="my-3 d-flex justify-content-center align-items-center">
         <div  class="container justify-content-center" style="max-width: 500px; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <asp:CreateUserWizard runat="server" ID="ctl10">
