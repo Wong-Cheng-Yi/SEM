@@ -268,3 +268,16 @@ namespace SEM_Assignment
         }
     }
 }
+
+
+//Here are the database table
+/*
+CREATE TABLE[dbo].[EmailBroadcast] (
+    [Id]           INT IDENTITY(1, 1) NOT NULL,
+    [EmailAddress] NVARCHAR (255) NULL,
+    [EventLink]    NVARCHAR (MAX) NULL,
+    [IsLinkSent]   BIT            NULL,
+    [SentDate]     DATETIME       NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+*/
