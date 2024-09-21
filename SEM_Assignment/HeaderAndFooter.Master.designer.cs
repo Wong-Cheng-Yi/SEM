@@ -51,6 +51,15 @@ namespace SEM_Assignment
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Event;
 
         /// <summary>
+        /// Bcast control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Bcast;
+
+        /// <summary>
         /// login control.
         /// </summary>
         /// <remarks>

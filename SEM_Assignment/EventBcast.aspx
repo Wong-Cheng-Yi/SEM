@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h6>Administrator</h6>
-                    <h2>Boardcast Events</h2>
+                    <h2>Broadcast Events</h2>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                             <ContentTemplate>
                                 <div class="d-flex justify-content-center align-items-center" >
                                     <div>   
-                                            <h3  class="text-center mb-4">Boardcast Event</h3>
+                                            <h3  class="text-center mb-4">Broadcast Event</h3>
 
                                             <!-- Event Link Input -->
                                             <label for="txtEventLink">Event Link:</label>
