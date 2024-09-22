@@ -1,5 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderAndFooter.Master" AutoEventWireup="true" CodeBehind="PasswordRecovery.aspx.cs" Inherits="SEM_Assignment.PasswordRecovery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <section class="heading-page header-text" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Password Recovery</h6>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container-fluid d-flex align-items-center justify-content-center min-vh-100">
         <div class="row justify-content-center">
             <div class="col-12">
