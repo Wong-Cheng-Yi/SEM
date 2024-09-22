@@ -13,9 +13,9 @@
     </section>
 
 
-    <div class="container mt-5 my-3">
+    <div class="container justify-content-center mt-5 my-3">
         <div  class="row justify-content-center" >
-            <div class="col-md-6 col-lg-5 bg-light p-4 shadow rounded">
+            <div class="col-md-6 col-lg-5 bg-light justify-content-center p-4 shadow rounded">
                 <asp:CreateUserWizard runat="server" ID="ctl10">
                     <wizardsteps>
                         <asp:CreateUserWizardStep runat="server">

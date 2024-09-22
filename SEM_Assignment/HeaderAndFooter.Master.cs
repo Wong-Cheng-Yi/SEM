@@ -20,12 +20,14 @@ namespace SEM_Assignment
                 register.Visible = true;
                 Event.Visible = true;
                 Bcast.Visible = true;
+                change.Visible = true;
                 LogoutButton.Text = "Logout";
             }
             else {
                 register.Visible = false;
                 Event.Visible = false;
                 Bcast.Visible = false;
+                change.Visible = false;
                 LogoutButton.Text = "Login";
             }
         }
