@@ -113,6 +113,7 @@
                                 <li id ="Event" runat="server"><a href="event-management.aspx">Event Management</a></li>
                                 <li><a href="home.aspx" class="active">Home</a></li>
                                 <li><a href="event.aspx">Event</a></li>
+                                <li id="Bcast" runat="server"><a href="EventBcast.aspx">Event Boardcast</a></li>
                                 
                                 <li id="login" runat="server"><asp:LinkButton ID="LogoutButton" runat="server" OnClick="LogoutButton_Click">Login</asp:LinkButton></li>
                                 <!-- just for testing the first push to git (XinYi) -->

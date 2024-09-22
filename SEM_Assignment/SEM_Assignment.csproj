@@ -121,6 +121,7 @@
     <Content Include="event-details.aspx" />
     <Content Include="event-management.aspx" />
     <Content Include="event.aspx" />
+    <Content Include="EventBcast.aspx" />
     <Content Include="home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PasswordRecovery.aspx" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="event.aspx.designer.cs">
       <DependentUpon>event.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventBcast.aspx.cs">
+      <DependentUpon>EventBcast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventBcast.aspx.designer.cs">
+      <DependentUpon>EventBcast.aspx</DependentUpon>
     </Compile>
     <Compile Include="HeaderAndFooter.Master.cs">
       <DependentUpon>HeaderAndFooter.Master</DependentUpon>
